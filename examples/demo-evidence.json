@@ -1,0 +1,70 @@
+{
+  "source": "examples/demo.mp4",
+  "source_sha256": "c50046b6044d19e77095c20a1d3d920caa699f62640b1861f6dbedd97fff9c25",
+  "coverage": {
+    "browser_checked": false,
+    "motion_checked": false,
+    "duration_seconds": 6.0,
+    "sampled_frame_count": 3,
+    "visual_method": "章节锚点或时间均匀抽样；逐帧 RapidOCR",
+    "fast_mode": true,
+    "note": "字幕或转写按取得的完整文件处理；画面只检查列出的抽样帧，未逐帧观看，也未核对连续动效。"
+  },
+  "warnings": [],
+  "frames": [
+    {
+      "seconds": 0.0,
+      "ocr": [
+        {
+          "text": "LOCAL VIDEO",
+          "score": 0.9863
+        },
+        {
+          "text": "CARD 01/ 03",
+          "score": 0.9549
+        },
+        {
+          "text": "ORIGINAL OCR DEMO",
+          "score": 0.9996
+        }
+      ],
+      "ocr_error": null
+    },
+    {
+      "seconds": 2.95,
+      "ocr": [
+        {
+          "text": "OPEN SOURCE",
+          "score": 0.9937
+        },
+        {
+          "text": "CARD 02/03",
+          "score": 0.9611
+        },
+        {
+          "text": "ORIGINAL OCR DEMO",
+          "score": 0.9997
+        }
+      ],
+      "ocr_error": null
+    },
+    {
+      "seconds": 5.9,
+      "ocr": [
+        {
+          "text": "DEMO COMPLETE",
+          "score": 0.9984
+        },
+        {
+          "text": "CARD 03/03",
+          "score": 0.9954
+        },
+        {
+          "text": "ORIGINAL OCR DEMO",
+          "score": 0.9785
+        }
+      ],
+      "ocr_error": null
+    }
+  ]
+}
